@@ -1,10 +1,8 @@
 #include "main.h"
 /**
- * The function check its argument
- * if it is lowercase it returns 1
- * else it returns 0
- * it uses ASCII to perform this
- * operation
+ * _islower - check its argument
+ * @c: integer value
+ *  Return: 1 if lowercase else 0
 */
 int _islower(int c)
 {
@@ -16,5 +14,5 @@ int _islower(int c)
 	{
 	return (0);
 	}
-	_putchar('\n');	
+	_putchar('\n');
 }
