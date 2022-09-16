@@ -3,13 +3,13 @@
 
 /**
  *  _putchar - writes a character c to stdout
- *  @ch: The character to print
+ *  @c: The character to print
  *
  *  Return on success 1.
  *  on error, -1 is returned and errno is set approppriately
 */
 
-int _putchar(char ch)
+int _putchar(char c)
 {
-	return (write(1, &ch, 1));
+	return (write(1, &c, 1));
 }
